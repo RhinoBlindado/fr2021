@@ -33,11 +33,9 @@ public class ProcesadorYodafy extends Thread {
 	@Override
 	public void run(){
 
-		PrintWriter outPrinter  = new PrintWriter(socketServicio.getOutputStream(),true);
-		BufferedReader inReader = new BufferedReader(new InputStreamReader(socketServicio.getInputStream()));
-
-
 		try {
+			PrintWriter outPrinter  = new PrintWriter(socketServicio.getOutputStream(),true);
+			BufferedReader inReader = new BufferedReader(new InputStreamReader(socketServicio.getInputStream()));
 			// Yoda hace su magia:
 			// Creamos un String a partir de un array de bytes de tamaño "bytesRecibidos":
 			String peticion= inReader.readLine();
