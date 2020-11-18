@@ -1,3 +1,4 @@
+all: ej1 ej2 ej3 ej4
 
 ej1: Ejercicio1/YodafyClienteTCP.class Ejercicio1/YodafyServidorIterativo.class
 
