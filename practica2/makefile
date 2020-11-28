@@ -35,7 +35,7 @@ Ejercicio4/YodafyServidorIterativo.class: Ejercicio4/YodafyServidorIterativo.jav
 		javac -cp Ejercicio4/ $<
 
 Ejercicio5/RelojClienteTCP.class: Ejercicio5/RelojClienteTCP.java
-		javac -cp Ejercici5/ $<
+		javac -cp Ejercicio5/ $<
 
 Ejercicio5/RelojServidorConcurrente.class: Ejercicio5/RelojServidorConcurrente.java Ejercicio5/ProcesadorReloj.java Ejercicio5/Alarma.java
 		javac -cp Ejercicio5/ $<
