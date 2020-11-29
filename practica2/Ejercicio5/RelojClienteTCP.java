@@ -87,11 +87,11 @@ public class RelojClienteTCP {
 					case 3:
 						System.out.println(	">>ACTIVAR ALARMAS: ");
 						outPrinter.println("#200 Activar Alarmas");
-						String str;
+						String str = new String();
 						do{
 							str = inReader.readLine();
 							System.out.println(str);
-						}while(str != "#001 OK");
+						}while(!str.equals("#001 OK"));
 
 					break;
 
